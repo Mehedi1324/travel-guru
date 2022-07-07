@@ -1,0 +1,33 @@
+.navbar {
+  padding: 0px !important;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.044);
+}
+.navbar.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 0px 10px 2px;
+  background-color: rgba(0, 0, 0, 0.524) !important;
+}
+.nav__logo {
+  margin: 0px 2%;
+  img {
+    width: 120px;
+    padding: 10px;
+  }
+}
+.hdr__link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    margin: 0px 10px !important;
+    color: rgb(212, 167, 20);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
